@@ -22,7 +22,7 @@ jobs:
       TF_VAR_storage_account_name: ${{ secrets.STORAGE_ACCOUNT_NAME }}
       TF_VAR_container_name: ${{ secrets.CONTAINER_NAME }}
       TF_VAR_aks_cluster_name: ${{ secrets.AKS_CLUSTER_NAME }}
-      TF_VAR_node_vm_size: "Standard_D2s_v3"
+      TF_VAR_node_vm_size: "Standard_B2s_v2"
       TF_VAR_vnet_cidr: "10.0.0.0/16"
       TF_VAR_subnet_cidr: "10.0.1.0/24"
       TF_VAR_service_cidr: "10.1.0.0/16"
